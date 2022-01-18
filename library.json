@@ -1,0 +1,18 @@
+{
+    "name": "EasyNextionLibrary",
+    "version": "1.0.6",
+    "description": "A simple library that uses only four functions. You can easily benefit from Nextion's wide range of features and advantages in just a few easy steps. The library uses a custom protocol that can prove to be a powerful tool for advanced users as it can be easily modified to meet one’s needs.",
+    "keywords": "Display, Nextion, HMI",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DillyPickly/EasyNextionLibrary.git"
+    },
+    "license": "MIT",
+    "frameworks": "espidf",
+    "platforms": "*",
+    "build_flags": {
+        "include": "./src/EasyNextionLibrary.h"
+    }
+
+
+}
